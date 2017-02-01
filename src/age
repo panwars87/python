@@ -1,0 +1,13 @@
+__author__ = "shashantp"
+
+def print_age():
+    age = input("Enter your age : ")
+    if age == "":
+        print("Please enter age to continue")
+        print_age()
+    else:
+        user_age = int(age)
+        print("Your age is {}".format(user_age))
+
+
+print_age()
