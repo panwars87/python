@@ -10,4 +10,5 @@ content = request.content
 soup = BeautifulSoup(content, "html.parser")
 element = soup.find("span", {"id": "priceblock_ourprice"})
 
-print(element.text.strip())
+print(element);
+##print(element.text.strip())
